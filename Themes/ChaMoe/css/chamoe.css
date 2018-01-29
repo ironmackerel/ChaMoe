@@ -1,0 +1,112 @@
+html {
+	background-color: rgb(237, 237, 237);
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	width: 90%;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(15, 15, 15);
+}
+
+a:hover {
+	color: rgb(60, 60, 76);
+}
+
+.smalltext {
+	font-size: 0.8em;
+}
+
+.blockheader {
+	background-color: rgb(70, 77, 90);
+	color: white;
+
+	padding: 8px;
+
+	font-weight: bold;
+}
+
+.block {
+	background-color: rgb(250, 250, 250);
+
+	padding: 8px;
+	margin-bottom: 16px;
+}
+
+.altblock {
+	background-color: rgb(70, 77, 90);
+	color: white;
+}
+
+.altblock a {
+	color: rgb(240, 240, 240);
+}
+
+.altblock a:hover {
+	color: rgb(200, 200, 200);
+}
+
+#main_menu {
+	background-color: rgb(250, 250, 250);
+	height: 50px;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+#main_menu ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#main_menu ul li {
+	display: inline;
+	padding: 4px 16px;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.breadcrumb {
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.breadcrumb ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.breadcrumb ul li {
+	display: inline;
+}
+
+.pages {
+	font-size: 0.8em;
+}
+
+/* board index */
+
+.board {
+	display: flex;
+}
+
+/* thread list */
+
+.threadrow {
+	border: 1px solid black;
+}
+
+.thread_pages {
+	font-size: 0.7em;
+	margin: 2px 0px;
+	color: rgb(100, 100, 100);
+}
+
+footer {
+	margin: 32px auto;
+	padding: 8px;
+	text-align: right;
+}

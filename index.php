@@ -321,6 +321,7 @@ function smf_main()
 		'reporttm' => array('SendTopic.php', 'ReportToModerator'),
 		'requestmembers' => array('Subs-Auth.php', 'RequestMembers'),
 		'restoretopic' => array('RemoveTopic.php', 'RestoreTopic'),
+		'rules' => array('Rules.php', 'Rules'),
 		'search' => array('Search.php', 'PlushSearch1'),
 		'search2' => array('Search.php', 'PlushSearch2'),
 		'sendtopic' => array('SendTopic.php', 'EmailUser'),
